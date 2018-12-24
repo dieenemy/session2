@@ -8,8 +8,7 @@ def generate_quiz():
     r = x + y + error
     return [x, y, "+", r]
 
-def check_answer(x, y, op, result, user_choice): #result: ketquahienthitrenmanhinh
-    #user_choice: nguoi dung dang click vao dau
+def check_answer(x, y, op, result, user_choice):
     if user_choice == True: 
         if x + y == result:
             return True 
