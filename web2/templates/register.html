@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+        <form action = "result" method = "POST">
+               
+                  <h1>Đăng Ký Tài Khoản</h1>
+                  <br>
+              
+                  <label for="name">Tên Đầy Đủ</label>
+                  <br>
+                  <input type="text" placeholder="Trần Xuân Tùng" name="name" required="required">
+                  <br>
+                  <br> 
+                  <label for="email">Email</label>
+                  <br>
+                  <input type="text" pattern="[^ @]*@[^ @]*" title="Email Form: abc@gmail.com" placeholder="Enter Email" name="Email" required="required">
+                  <br>
+                  <br>  
+                  <label for="nickname">Tên Đăng Nhập</label>
+                  <br>
+                  <input type="text" placeholder="..." name="nickname" required="required">
+                  <br>
+                  <br>  
+                  <label for="password">Mật Khẩu</label>
+                  <br>
+                  <input type="password"  name="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required="required">
+        
+                  <br>
+                  <br>
+                  <p><input type = "submit" value = "Submit" /></p>
+        
+                  
+                
+            </form>
+</body>
+</html>
