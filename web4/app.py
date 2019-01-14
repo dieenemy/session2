@@ -20,7 +20,7 @@ def add_charactnew_bikeer():
         print(model, fee, image, year)
         new_bike = Bike(model=model, fee=fee, image=image, year=year)
         new_bike.save()
-        return "Gotcha"
+        return redirect("/new_bike")
 
 
 
